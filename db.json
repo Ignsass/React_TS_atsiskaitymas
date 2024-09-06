@@ -62,14 +62,16 @@
       "title": "as",
       "description": "as",
       "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBbbg7VcWaqhFvq5MC_1tCsktF0v5KrEGghQ&s",
-      "createdAt": "2024-09-06T08:37:49.011Z"
+      "createdAt": "2024-09-06T08:37:49.011Z",
+      "saved": true
     },
     {
       "id": "1288",
       "title": "Lion",
       "description": "Animal",
       "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPL2rynAGaE4hyOUukSceSKx3g2Z8bT7a4IQ&s",
-      "createdAt": "2024-09-06T08:43:19.081Z"
+      "createdAt": "2024-09-06T08:43:19.081Z",
+      "saved": true
     },
     {
       "id": "de35",
