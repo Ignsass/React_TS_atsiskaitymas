@@ -141,3 +141,15 @@ form button:hover {
   top: 16px;
   right: 16px;
 }
+.save-button {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.save-button:hover {
+  background-color: #45a049;
+}

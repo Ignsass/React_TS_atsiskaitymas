@@ -5,6 +5,14 @@ import Footer from '../components/organisms/Footer';
 import Card from '../components/molecules/Card';
 import { useAuth } from '../context/AuthContext';
 
+interface Card {
+  id: number;
+  title: string;
+  description: string;
+  imageUrl: string;
+  saved: boolean;
+}
+
 const Home: React.FC = () => {
   const [cards, setCards] = useState<any[]>([]);
   const { isLoggedIn } = useAuth(); 
@@ -46,8 +54,7 @@ const Home: React.FC = () => {
               imageUrl={card.imageUrl}
               avatarUrl={card.avatarUrl}
               createdAt={card.createdAt}
-              onDelete={isLoggedIn ? () => handleDelete(card.id) : undefined}
-            />
+              onDelete={isLoggedIn ? () => handleDelete(card.id) : undefined} id={0} saved={false}            />
           ))
         )}
       </div>
